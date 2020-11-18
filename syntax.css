@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body{
+    background-color: #eee;
+}
+
+#wrapper { 
+    margin: 0px auto;
+    display: inline-block;
+}
+nav{
+    background: #8a1111;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 150;
+}
+
+nav a{
+    text-decoration: none;
+    position: relative;
+    float: right;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+.heroes{
+    right: 1.5rem;
+}
+
+.manga{
+    right: 2rem;
+}
+
+.watch{
+    right: 2rem;
+}
+
+.links{
+    right: 2.5rem;
+}
+
+.int2{
+    background-color: red;
+}
+.int2 a{
+    position: relative;
+    float: right;
+    bottom: 3rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #808285;
+    font-weight: bold;
+}
+
+.lett a{
+    position: relative;
+    margin: .5rem;
+    text-decoration: none;
+    left: 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #404040;
+    display: inline-block;
+    
+}
+
+#anime{
+    position: relative;
+    background-color: #FFCE58;
+    font-weight: bold;
+    width: 6.5rem;
+    height: 1.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pan{
+    position: relative;
+    padding: 1rem;
+    left: .7rem;
+    margin: 10px;
+    top: 4rem;
+    width: 16rem;
+    text-align: center;
+    background: #404040;
+    border-radius: .6rem;
+    display: inline-block;
+}
+.int{
+    position: relative;
+    color: #404040;
+    font-size: 5rem;
+    top: 2rem;
+    text-transform: uppercase;
+    
+}
+
+.when{
+    position: relative;
+    color: #404040;
+    display: inline-block;
+    margin-top: 3rem;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    overflow: hidden;
+    
+}
+.pan a{
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.pan:hover{
+    background: #8a1111;
+}
+.pan2{
+    position: relative;
+    float: left;
+    margin: 10px;
+    top: 4rem;
+    padding: 1rem;
+    width: 18rem;
+    text-align: center;
+    background: #404040;
+    border-radius: .6rem;
+
+}
+
+.pan2 a{
+    position: relative;
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.pan2:hover{
+    background: #8a1111;
+}
+
+.long-line-in-middle{
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #404040;
+    top: 6rem;
+    height: 44rem;
+    display: inline-block;
+}
+
+.long-line-in-middle > p{
+    position: relative;
+    color: #fafafa;
+    margin-top: 3.5rem;
+    font-size: 3rem;
+    font-family: arial;
+    margin-left: .8rem;
+    font-weight: bold;
+}
+
+.long-line-in-middle span{
+    position: relative;
+    color: #c2c4c7;
+    top: 7.5rem;
+    left: .8rem;
+    font-family: arial;
+    font-size: 2rem;
+}
+
+.inside-img{
+    position: relative;
+    width: 100%;
+    background-color: #fafafa; 
+    align-items: center;
+    padding: 3rem;
+}
+
+#both{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+
+
+.inside-img p{
+    position: relative;
+    color: #808285;
+    font-size: 1.3rem;
+    font-family: arial;
+}
+
+.inside-img h4{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+}
+
+.inside-img img{
+    width: 100%;
+}
